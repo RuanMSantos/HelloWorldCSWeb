@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+body>* {
+    flex: 1;
+}
+
+#mensagem {
+    color: #004545;
+    font-size: 2em;
+}
